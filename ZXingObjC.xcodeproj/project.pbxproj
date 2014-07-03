@@ -5862,6 +5862,125 @@
 			};
 			name = Release;
 		};
+		63F644C11965C53C0048E0FB /* Internal_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_VERSION = 3.0.1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Internal_Release;
+		};
+		63F644C21965C53C0048E0FB /* Internal_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/ZXingObjC.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "ZXingObjC-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Internal_Release;
+		};
+		63F644C31965C53C0048E0FB /* Internal_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXingObjCTests/Supporting Files/Tests-iOS-Prefix.pch";
+				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Internal_Release;
+		};
+		63F644C41965C53C0048E0FB /* Internal_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Internal_Release;
+		};
+		63F644C51965C53C0048E0FB /* Internal_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXingObjCTests/Supporting Files/Tests-OSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Internal_Release;
+		};
+		63F644C61965C53C0048E0FB /* Internal_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				PRODUCT_NAME = ZXingObjC;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Internal_Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5870,6 +5989,7 @@
 			buildConfigurations = (
 				25403CD6166A96FA00E13304 /* Debug */,
 				25403CD7166A96FA00E13304 /* Release */,
+				63F644C11965C53C0048E0FB /* Internal_Release */,
 				02AF346E1672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -5880,6 +6000,7 @@
 			buildConfigurations = (
 				25403CD9166A96FA00E13304 /* Debug */,
 				25403CDA166A96FA00E13304 /* Release */,
+				63F644C21965C53C0048E0FB /* Internal_Release */,
 				02AF346F1672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -5890,6 +6011,7 @@
 			buildConfigurations = (
 				25403CDC166A96FA00E13304 /* Debug */,
 				25403CDD166A96FA00E13304 /* Release */,
+				63F644C31965C53C0048E0FB /* Internal_Release */,
 				02AF34701672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -5900,6 +6022,7 @@
 			buildConfigurations = (
 				25404188166AADAD00E13304 /* Debug */,
 				25404189166AADAD00E13304 /* Release */,
+				63F644C41965C53C0048E0FB /* Internal_Release */,
 				02AF34721672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -5910,6 +6033,7 @@
 			buildConfigurations = (
 				2540418B166AADAD00E13304 /* Debug */,
 				2540418C166AADAD00E13304 /* Release */,
+				63F644C51965C53C0048E0FB /* Internal_Release */,
 				02AF34731672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -5920,6 +6044,7 @@
 			buildConfigurations = (
 				254043B1166ABA0A00E13304 /* Debug */,
 				254043B2166ABA0A00E13304 /* Release */,
+				63F644C61965C53C0048E0FB /* Internal_Release */,
 				02AF34741672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
