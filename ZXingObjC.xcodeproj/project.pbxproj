@@ -604,7 +604,7 @@
 		25389B8E18010B9A00772392 /* ZXPDF417DetectorResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 25389B8818010B9A00772392 /* ZXPDF417DetectorResult.m */; };
 		25403CB7166A96FA00E13304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25403CB6166A96FA00E13304 /* Foundation.framework */; };
 		25403CC9166A96FA00E13304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25403CB6166A96FA00E13304 /* Foundation.framework */; };
-		25403CCC166A96FA00E13304 /* libZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25403CB3166A96FA00E13304 /* libZXingObjC.a */; };
+		25403CCC166A96FA00E13304 /* libZXingObjC-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25403CB3166A96FA00E13304 /* libZXingObjC-iOS.a */; };
 		25403CE3166A98C700E13304 /* ZXingObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 25403CBB166A96FA00E13304 /* ZXingObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25403CF8166A999D00E13304 /* ZXAztecDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25403CEF166A999D00E13304 /* ZXAztecDecoder.m */; };
 		25403CFA166A999D00E13304 /* ZXAztecDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 25403CF2166A999D00E13304 /* ZXAztecDetector.m */; };
@@ -1783,7 +1783,7 @@
 		25389B801800E35B00772392 /* ZXPDF417ScanningDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPDF417ScanningDecoder.m; sourceTree = "<group>"; };
 		25389B8718010B9A00772392 /* ZXPDF417DetectorResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPDF417DetectorResult.h; sourceTree = "<group>"; };
 		25389B8818010B9A00772392 /* ZXPDF417DetectorResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPDF417DetectorResult.m; sourceTree = "<group>"; };
-		25403CB3166A96FA00E13304 /* libZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZXingObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25403CB3166A96FA00E13304 /* libZXingObjC-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libZXingObjC-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25403CB6166A96FA00E13304 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25403CBB166A96FA00E13304 /* ZXingObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXingObjC.h; sourceTree = "<group>"; };
 		25403CC4166A96FA00E13304 /* Unit Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2416,7 +2416,7 @@
 				0217453618E35AEE00864750 /* ImageIO.framework in Frameworks */,
 				0217454A18E35C3E00864750 /* QuartzCore.framework in Frameworks */,
 				25404160166AAAAB00E13304 /* UIKit.framework in Frameworks */,
-				25403CCC166A96FA00E13304 /* libZXingObjC.a in Frameworks */,
+				25403CCC166A96FA00E13304 /* libZXingObjC-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2581,7 +2581,7 @@
 		25403CB4166A96FA00E13304 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25403CB3166A96FA00E13304 /* libZXingObjC.a */,
+				25403CB3166A96FA00E13304 /* libZXingObjC-iOS.a */,
 				25403CC4166A96FA00E13304 /* Unit Tests iOS.xctest */,
 				25404166166AADAC00E13304 /* libZXingObjC-osx.a */,
 				25404178166AADAC00E13304 /* Unit Tests OS X.xctest */,
@@ -4415,7 +4415,7 @@
 			);
 			name = "ZXingObjC-iOS";
 			productName = ZXingObjC;
-			productReference = 25403CB3166A96FA00E13304 /* libZXingObjC.a */;
+			productReference = 25403CB3166A96FA00E13304 /* libZXingObjC-iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		25403CC3166A96FA00E13304 /* Unit Tests iOS */ = {
@@ -5567,7 +5567,7 @@
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
-				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -5584,8 +5584,6 @@
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
-				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
-				PRODUCT_NAME = "ZXingObjC-iOS";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
@@ -5745,7 +5743,7 @@
 			};
 			name = Release;
 		};
-		631E07D819789B6300242B65 /* Internal_Release */ = {
+		631E07D819789B6300242B65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -5767,25 +5765,7 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Internal_Release;
 			name = Release;
-		};
-		25403CD9166A96FA00E13304 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = NO;
-				DSTROOT = /tmp/ZXingObjC.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ios-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ZXingObjC-iOS";
-				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
-				SKIP_INSTALL = YES;
-				STRIP_STYLE = "non-global";
-			};
-			name = Debug;
 		};
 		631E07D919789B6300242B65 /* Internal_Release */ = {
 			isa = XCBuildConfiguration;
@@ -5798,8 +5778,6 @@
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
-				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
-				PRODUCT_NAME = "ZXingObjC-iOS";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
@@ -6253,10 +6231,9 @@
 				25403CD6166A96FA00E13304 /* Debug */,
 				631E07E419789B8100242B65 /* NoLoggingDebug */,
 				25403CD7166A96FA00E13304 /* Release */,
-				631E07D819789B6300242B65 /* Internal_Release */,
+				631E07D819789B6300242B65 /* Release */,
 				631E07DE19789B6F00242B65 /* AdHoc */,
 				63F644C11965C53C0048E0FB /* Internal_Release */,
-				02AF346E1672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6270,7 +6247,6 @@
 				631E07D919789B6300242B65 /* Internal_Release */,
 				631E07DF19789B6F00242B65 /* AdHoc */,
 				63F644C21965C53C0048E0FB /* Internal_Release */,
-				02AF346F1672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6284,7 +6260,6 @@
 				631E07DA19789B6300242B65 /* Internal_Release */,
 				631E07E019789B6F00242B65 /* AdHoc */,
 				63F644C31965C53C0048E0FB /* Internal_Release */,
-				02AF34701672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6298,7 +6273,6 @@
 				631E07DB19789B6300242B65 /* Internal_Release */,
 				631E07E119789B6F00242B65 /* AdHoc */,
 				63F644C41965C53C0048E0FB /* Internal_Release */,
-				02AF34721672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6312,7 +6286,6 @@
 				631E07DC19789B6300242B65 /* Internal_Release */,
 				631E07E219789B6F00242B65 /* AdHoc */,
 				63F644C51965C53C0048E0FB /* Internal_Release */,
-				02AF34731672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6326,7 +6299,6 @@
 				631E07DD19789B6300242B65 /* Internal_Release */,
 				631E07E319789B6F00242B65 /* AdHoc */,
 				63F644C61965C53C0048E0FB /* Internal_Release */,
-				02AF34741672527F003B9255 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
