@@ -5862,7 +5862,7 @@
 			};
 			name = QALogging;
 		};
-		631E07DE19789B6F00242B65 /* AdHoc */ = {
+		631E07DE19789B6F00242B65 /* QANoLogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -5884,9 +5884,9 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = AdHoc;
+			name = QANoLogging;
 		};
-		631E07DF19789B6F00242B65 /* AdHoc */ = {
+		631E07DF19789B6F00242B65 /* QANoLogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -5901,9 +5901,9 @@
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
 			};
-			name = AdHoc;
+			name = QANoLogging;
 		};
-		631E07E019789B6F00242B65 /* AdHoc */ = {
+		631E07E019789B6F00242B65 /* QANoLogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -5918,9 +5918,9 @@
 				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
-			name = AdHoc;
+			name = QANoLogging;
 		};
-		631E07E119789B6F00242B65 /* AdHoc */ = {
+		631E07E119789B6F00242B65 /* QANoLogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -5931,9 +5931,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
-			name = AdHoc;
+			name = QANoLogging;
 		};
-		631E07E219789B6F00242B65 /* AdHoc */ = {
+		631E07E219789B6F00242B65 /* QANoLogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -5956,9 +5956,9 @@
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xctest;
 			};
-			name = AdHoc;
+			name = QANoLogging;
 		};
-		631E07E319789B6F00242B65 /* AdHoc */ = {
+		631E07E319789B6F00242B65 /* QANoLogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -5979,9 +5979,9 @@
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
-			name = AdHoc;
+			name = QANoLogging;
 		};
-		631E07E419789B8100242B65 /* NoLoggingDebug */ = {
+		631E07E419789B8100242B65 /* QAAutomation */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -6009,9 +6009,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
-			name = NoLoggingDebug;
+			name = QAAutomation;
 		};
-		631E07E519789B8100242B65 /* NoLoggingDebug */ = {
+		631E07E519789B8100242B65 /* QAAutomation */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -6026,9 +6026,9 @@
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
 			};
-			name = NoLoggingDebug;
+			name = QAAutomation;
 		};
-		631E07E619789B8100242B65 /* NoLoggingDebug */ = {
+		631E07E619789B8100242B65 /* QAAutomation */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -6043,9 +6043,9 @@
 				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
-			name = NoLoggingDebug;
+			name = QAAutomation;
 		};
-		631E07E719789B8100242B65 /* NoLoggingDebug */ = {
+		631E07E719789B8100242B65 /* QAAutomation */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -6055,9 +6055,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
-			name = NoLoggingDebug;
+			name = QAAutomation;
 		};
-		631E07E819789B8100242B65 /* NoLoggingDebug */ = {
+		631E07E819789B8100242B65 /* QAAutomation */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -6079,9 +6079,9 @@
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xctest;
 			};
-			name = NoLoggingDebug;
+			name = QAAutomation;
 		};
-		631E07E919789B8100242B65 /* NoLoggingDebug */ = {
+		631E07E919789B8100242B65 /* QAAutomation */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -6101,7 +6101,367 @@
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
-			name = NoLoggingDebug;
+			name = QAAutomation;
+		};
+		63473D941A69D16D00810DD8 /* DevNoLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_VERSION = 3.0.1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = DevNoLogging;
+		};
+		63473D951A69D16D00810DD8 /* DevNoLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/ZXingObjC.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ZXingObjC;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = DevNoLogging;
+		};
+		63473D961A69D16D00810DD8 /* DevNoLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXingObjCTests/Supporting Files/Tests-iOS-Prefix.pch";
+				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = DevNoLogging;
+		};
+		63473D971A69D16D00810DD8 /* DevNoLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = DevNoLogging;
+		};
+		63473D981A69D16D00810DD8 /* DevNoLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXingObjCTests/Supporting Files/Tests-OSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = DevNoLogging;
+		};
+		63473D991A69D16D00810DD8 /* DevNoLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				PRODUCT_NAME = ZXingObjC;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = DevNoLogging;
+		};
+		634846251A69BD4A00888C2A /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_VERSION = 3.0.1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Enterprise;
+		};
+		634846261A69BD4A00888C2A /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/ZXingObjC.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ZXingObjC;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Enterprise;
+		};
+		634846271A69BD4A00888C2A /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXingObjCTests/Supporting Files/Tests-iOS-Prefix.pch";
+				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Enterprise;
+		};
+		634846281A69BD4A00888C2A /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Enterprise;
+		};
+		634846291A69BD4A00888C2A /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXingObjCTests/Supporting Files/Tests-OSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Enterprise;
+		};
+		6348462A1A69BD4A00888C2A /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				PRODUCT_NAME = ZXingObjC;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Enterprise;
+		};
+		63C9700C1A69C9DB003C72AB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_VERSION = 3.0.1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		63C9700D1A69C9DB003C72AB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/ZXingObjC.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ZXingObjC;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = AppStore;
+		};
+		63C9700E1A69C9DB003C72AB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXingObjCTests/Supporting Files/Tests-iOS-Prefix.pch";
+				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AppStore;
+		};
+		63C9700F1A69C9DB003C72AB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = AppStore;
+		};
+		63C970101A69C9DB003C72AB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXingObjCTests/Supporting Files/Tests-OSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = AppStore;
+		};
+		63C970111A69C9DB003C72AB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				PRODUCT_NAME = ZXingObjC;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = AppStore;
 		};
 		63F644C11965C53C0048E0FB /* QALogging */ = {
 			isa = XCBuildConfiguration;
@@ -6134,11 +6494,14 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25403CD6166A96FA00E13304 /* Debug */,
-				631E07E419789B8100242B65 /* NoLoggingDebug */,
+				631E07E419789B8100242B65 /* QAAutomation */,
+				63473D941A69D16D00810DD8 /* DevNoLogging */,
 				25403CD7166A96FA00E13304 /* Release */,
+				63C9700C1A69C9DB003C72AB /* AppStore */,
 				631E07D819789B6300242B65 /* Release */,
-				631E07DE19789B6F00242B65 /* AdHoc */,
+				631E07DE19789B6F00242B65 /* QANoLogging */,
 				63F644C11965C53C0048E0FB /* QALogging */,
+				634846251A69BD4A00888C2A /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6147,10 +6510,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25403CD9166A96FA00E13304 /* Debug */,
-				631E07E519789B8100242B65 /* NoLoggingDebug */,
+				631E07E519789B8100242B65 /* QAAutomation */,
+				63473D951A69D16D00810DD8 /* DevNoLogging */,
 				25403CDA166A96FA00E13304 /* Release */,
+				63C9700D1A69C9DB003C72AB /* AppStore */,
 				631E07D919789B6300242B65 /* QALogging */,
-				631E07DF19789B6F00242B65 /* AdHoc */,
+				634846261A69BD4A00888C2A /* Enterprise */,
+				631E07DF19789B6F00242B65 /* QANoLogging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6159,10 +6525,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25403CDC166A96FA00E13304 /* Debug */,
-				631E07E619789B8100242B65 /* NoLoggingDebug */,
+				631E07E619789B8100242B65 /* QAAutomation */,
+				63473D961A69D16D00810DD8 /* DevNoLogging */,
 				25403CDD166A96FA00E13304 /* Release */,
+				63C9700E1A69C9DB003C72AB /* AppStore */,
 				631E07DA19789B6300242B65 /* QALogging */,
-				631E07E019789B6F00242B65 /* AdHoc */,
+				634846271A69BD4A00888C2A /* Enterprise */,
+				631E07E019789B6F00242B65 /* QANoLogging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6171,10 +6540,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25404188166AADAD00E13304 /* Debug */,
-				631E07E719789B8100242B65 /* NoLoggingDebug */,
+				631E07E719789B8100242B65 /* QAAutomation */,
+				63473D971A69D16D00810DD8 /* DevNoLogging */,
 				25404189166AADAD00E13304 /* Release */,
+				63C9700F1A69C9DB003C72AB /* AppStore */,
 				631E07DB19789B6300242B65 /* QALogging */,
-				631E07E119789B6F00242B65 /* AdHoc */,
+				634846281A69BD4A00888C2A /* Enterprise */,
+				631E07E119789B6F00242B65 /* QANoLogging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6183,10 +6555,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2540418B166AADAD00E13304 /* Debug */,
-				631E07E819789B8100242B65 /* NoLoggingDebug */,
+				631E07E819789B8100242B65 /* QAAutomation */,
+				63473D981A69D16D00810DD8 /* DevNoLogging */,
 				2540418C166AADAD00E13304 /* Release */,
+				63C970101A69C9DB003C72AB /* AppStore */,
 				631E07DC19789B6300242B65 /* QALogging */,
-				631E07E219789B6F00242B65 /* AdHoc */,
+				634846291A69BD4A00888C2A /* Enterprise */,
+				631E07E219789B6F00242B65 /* QANoLogging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6195,10 +6570,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				254043B1166ABA0A00E13304 /* Debug */,
-				631E07E919789B8100242B65 /* NoLoggingDebug */,
+				631E07E919789B8100242B65 /* QAAutomation */,
+				63473D991A69D16D00810DD8 /* DevNoLogging */,
 				254043B2166ABA0A00E13304 /* Release */,
+				63C970111A69C9DB003C72AB /* AppStore */,
 				631E07DD19789B6300242B65 /* QALogging */,
-				631E07E319789B6F00242B65 /* AdHoc */,
+				6348462A1A69BD4A00888C2A /* Enterprise */,
+				631E07E319789B6F00242B65 /* QANoLogging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
