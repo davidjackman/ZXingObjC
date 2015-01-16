@@ -4469,7 +4469,7 @@
 			name = "Unit Tests OS X";
 			productName = ZXingObjCTests;
 			productReference = 25404178166AADAC00E13304 /* Unit Tests OS X.xctest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2540439D166ABA0A00E13304 /* OS X Framework */ = {
 			isa = PBXNativeTarget;
@@ -5767,7 +5767,7 @@
 			};
 			name = Release;
 		};
-		631E07D919789B6300242B65 /* Internal_Release */ = {
+		631E07D919789B6300242B65 /* QALogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -5782,9 +5782,9 @@
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
 			};
-			name = Internal_Release;
+			name = QALogging;
 		};
-		631E07DA19789B6300242B65 /* Internal_Release */ = {
+		631E07DA19789B6300242B65 /* QALogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -5799,9 +5799,9 @@
 				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
-			name = Internal_Release;
+			name = QALogging;
 		};
-		631E07DB19789B6300242B65 /* Internal_Release */ = {
+		631E07DB19789B6300242B65 /* QALogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -5812,9 +5812,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
-			name = Internal_Release;
+			name = QALogging;
 		};
-		631E07DC19789B6300242B65 /* Internal_Release */ = {
+		631E07DC19789B6300242B65 /* QALogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -5837,9 +5837,9 @@
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xctest;
 			};
-			name = Internal_Release;
+			name = QALogging;
 		};
-		631E07DD19789B6300242B65 /* Internal_Release */ = {
+		631E07DD19789B6300242B65 /* QALogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -5860,7 +5860,7 @@
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
-			name = Internal_Release;
+			name = QALogging;
 		};
 		631E07DE19789B6F00242B65 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
@@ -6103,7 +6103,7 @@
 			};
 			name = NoLoggingDebug;
 		};
-		63F644C11965C53C0048E0FB /* Internal_Release */ = {
+		63F644C11965C53C0048E0FB /* QALogging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -6125,102 +6125,7 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Internal_Release;
-		};
-		63F644C21965C53C0048E0FB /* Internal_Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = NO;
-				DSTROOT = /tmp/ZXingObjC.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ios-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ZXingObjC-iOS";
-				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
-				SKIP_INSTALL = YES;
-				STRIP_STYLE = "non-global";
-			};
-			name = Internal_Release;
-		};
-		63F644C31965C53C0048E0FB /* Internal_Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COMPRESS_PNG_FILES = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZXingObjCTests/Supporting Files/Tests-iOS-Prefix.pch";
-				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Internal_Release;
-		};
-		63F644C41965C53C0048E0FB /* Internal_Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "osx-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Internal_Release;
-		};
-		63F644C51965C53C0048E0FB /* Internal_Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZXingObjCTests/Supporting Files/Tests-OSX-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "ZXingObjCTests/Supporting Files/ZXingObjCTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					XCTest,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Internal_Release;
-		};
-		63F644C61965C53C0048E0FB /* Internal_Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-					"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "osx-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				PRODUCT_NAME = ZXingObjC;
-				SDKROOT = macosx;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Internal_Release;
+			name = QALogging;
 		};
 /* End XCBuildConfiguration section */
 
@@ -6233,7 +6138,7 @@
 				25403CD7166A96FA00E13304 /* Release */,
 				631E07D819789B6300242B65 /* Release */,
 				631E07DE19789B6F00242B65 /* AdHoc */,
-				63F644C11965C53C0048E0FB /* Internal_Release */,
+				63F644C11965C53C0048E0FB /* QALogging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6244,9 +6149,8 @@
 				25403CD9166A96FA00E13304 /* Debug */,
 				631E07E519789B8100242B65 /* NoLoggingDebug */,
 				25403CDA166A96FA00E13304 /* Release */,
-				631E07D919789B6300242B65 /* Internal_Release */,
+				631E07D919789B6300242B65 /* QALogging */,
 				631E07DF19789B6F00242B65 /* AdHoc */,
-				63F644C21965C53C0048E0FB /* Internal_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6257,9 +6161,8 @@
 				25403CDC166A96FA00E13304 /* Debug */,
 				631E07E619789B8100242B65 /* NoLoggingDebug */,
 				25403CDD166A96FA00E13304 /* Release */,
-				631E07DA19789B6300242B65 /* Internal_Release */,
+				631E07DA19789B6300242B65 /* QALogging */,
 				631E07E019789B6F00242B65 /* AdHoc */,
-				63F644C31965C53C0048E0FB /* Internal_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6270,9 +6173,8 @@
 				25404188166AADAD00E13304 /* Debug */,
 				631E07E719789B8100242B65 /* NoLoggingDebug */,
 				25404189166AADAD00E13304 /* Release */,
-				631E07DB19789B6300242B65 /* Internal_Release */,
+				631E07DB19789B6300242B65 /* QALogging */,
 				631E07E119789B6F00242B65 /* AdHoc */,
-				63F644C41965C53C0048E0FB /* Internal_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6283,9 +6185,8 @@
 				2540418B166AADAD00E13304 /* Debug */,
 				631E07E819789B8100242B65 /* NoLoggingDebug */,
 				2540418C166AADAD00E13304 /* Release */,
-				631E07DC19789B6300242B65 /* Internal_Release */,
+				631E07DC19789B6300242B65 /* QALogging */,
 				631E07E219789B6F00242B65 /* AdHoc */,
-				63F644C51965C53C0048E0FB /* Internal_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6296,9 +6197,8 @@
 				254043B1166ABA0A00E13304 /* Debug */,
 				631E07E919789B8100242B65 /* NoLoggingDebug */,
 				254043B2166ABA0A00E13304 /* Release */,
-				631E07DD19789B6300242B65 /* Internal_Release */,
+				631E07DD19789B6300242B65 /* QALogging */,
 				631E07E319789B6F00242B65 /* AdHoc */,
-				63F644C61965C53C0048E0FB /* Internal_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
