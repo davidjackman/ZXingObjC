@@ -66,7 +66,6 @@ const long ZX_RFC2445_DURATION_FIELD_UNITS[] = {
     _location = location;
     _organizer = organizer;
     _attendees = attendees;
-//    _description = description;
     _latitude = latitude;
     _longitude = longitude;
   }
