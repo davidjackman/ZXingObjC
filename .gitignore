@@ -10,6 +10,12 @@
 *.pbxuser
 xcuserdata
 *.xccheckout
+*.xcscmblueprint
+Carthage/Build
+
+# Xcode Test Coverage Files
+*.gcno
+*.gcda
 
 # Build products
 build/
