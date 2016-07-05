@@ -20,7 +20,7 @@
 
 - (id)initWithLength:(unsigned int)length {
   if (self = [super init]) {
-    _array = (int8_t *)calloc(length, sizeof(BOOL));
+    _array = (int8_t *)calloc(length, sizeof(int8_t));
     _length = length;
   }
 
