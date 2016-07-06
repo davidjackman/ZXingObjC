@@ -5567,6 +5567,12 @@
 				DSTROOT = /tmp/ZXingObjC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-Qunused-arguments",
+					"-Xanalyzer",
+					"-analyzer-disable-all-checks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
@@ -5585,6 +5591,12 @@
 				DSTROOT = /tmp/ZXingObjC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-Qunused-arguments",
+					"-Xanalyzer",
+					"-analyzer-disable-all-checks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
@@ -5784,6 +5796,12 @@
 				DSTROOT = /tmp/ZXingObjC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-Qunused-arguments",
+					"-Xanalyzer",
+					"-analyzer-disable-all-checks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
@@ -5906,6 +5924,12 @@
 				DSTROOT = /tmp/ZXingObjC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-Qunused-arguments",
+					"-Xanalyzer",
+					"-analyzer-disable-all-checks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
@@ -6034,6 +6058,12 @@
 				DSTROOT = /tmp/ZXingObjC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-Qunused-arguments",
+					"-Xanalyzer",
+					"-analyzer-disable-all-checks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
@@ -6159,6 +6189,12 @@
 				DSTROOT = /tmp/ZXingObjC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-Qunused-arguments",
+					"-Xanalyzer",
+					"-analyzer-disable-all-checks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
@@ -6278,6 +6314,12 @@
 				DSTROOT = /tmp/ZXingObjC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-Qunused-arguments",
+					"-Xanalyzer",
+					"-analyzer-disable-all-checks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
@@ -6400,6 +6442,12 @@
 				DSTROOT = /tmp/ZXingObjC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-Qunused-arguments",
+					"-Xanalyzer",
+					"-analyzer-disable-all-checks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZXingObjC;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
