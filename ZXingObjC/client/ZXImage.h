@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#import <QuartzCore/QuartzCore.h>
+@import QuartzCore;
 
 @class ZXBitMatrix;
 

@@ -1744,8 +1744,8 @@
 		0294D180190EE63C00BBACCB /* ZXingObjCMaxiCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXingObjCMaxiCode.h; sourceTree = "<group>"; };
 		0294D184190EE69400BBACCB /* ZXingObjCOneD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXingObjCOneD.h; sourceTree = "<group>"; };
 		0294D188190EE6C700BBACCB /* ZXingObjCPDF417.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXingObjCPDF417.h; sourceTree = "<group>"; };
-		02BDA2EE1803109E0039B326 /* Tests-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		02BDA2EF1803109E0039B326 /* Tests-OSX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-OSX-Prefix.pch"; sourceTree = "<group>"; };
+		02BDA2EE1803109E0039B326 /* Tests-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Tests-iOS-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		02BDA2EF1803109E0039B326 /* Tests-OSX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Tests-OSX-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		02BDA2F01803109E0039B326 /* ZXingObjCTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ZXingObjCTests-Info.plist"; sourceTree = "<group>"; };
 		2504D9CD16FFD2E200DF8882 /* ZXAztecCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAztecCode.h; path = encoder/ZXAztecCode.h; sourceTree = "<group>"; };
 		2504D9CE16FFD2E200DF8882 /* ZXAztecCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAztecCode.m; path = encoder/ZXAztecCode.m; sourceTree = "<group>"; };
@@ -2320,7 +2320,7 @@
 		25404145166AA16200E13304 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25404166166AADAC00E13304 /* libZXingObjC-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libZXingObjC-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25404178166AADAC00E13304 /* Unit Tests OS X.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests OS X.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2540418D166AADEF00E13304 /* osx-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "osx-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		2540418D166AADEF00E13304 /* osx-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "osx-Prefix.pch"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2540438F166AB91700E13304 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		2540439E166ABA0A00E13304 /* ZXingObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZXingObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2540471A166AC21000E13304 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -5561,9 +5561,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DSTROOT = /tmp/ZXingObjC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
@@ -5585,6 +5587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
@@ -5790,6 +5793,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
@@ -5918,6 +5922,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
@@ -6052,6 +6057,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
@@ -6183,6 +6189,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
@@ -6308,6 +6315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
@@ -6436,6 +6444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;

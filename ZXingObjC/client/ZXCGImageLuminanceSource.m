@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#import <CoreVideo/CoreVideo.h>
+@import CoreVideo;
 #import "ZXByteArray.h"
 #import "ZXCGImageLuminanceSource.h"
 #import "ZXImage.h"
