@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#import <CoreGraphics/CoreGraphics.h>
+@import CoreGraphics;
 #import "ZXBitArray.h"
 #import "ZXBitMatrix.h"
 #import "ZXLuminanceSource.h"

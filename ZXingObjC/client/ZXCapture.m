@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#import <ImageIO/ImageIO.h>
+@import ImageIO;
 #import "ZXBinaryBitmap.h"
 #import "ZXCapture.h"
 #import "ZXCaptureDelegate.h"

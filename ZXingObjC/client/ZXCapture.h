@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#import <AVFoundation/AVFoundation.h>
+@import AVFoundation;
 
 @protocol ZXCaptureDelegate, ZXReader;
 @class ZXDecodeHints;
