@@ -237,7 +237,7 @@
         rgbPixelOut = 255;
       }
 
-      _data[i] = rgbPixelOut;
+        self->_data[i] = rgbPixelOut;
     }
   });
 
