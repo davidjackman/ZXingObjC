@@ -14,7 +14,8 @@
  * limitations under the License.
  */
 
-@import ImageIO;
+#import <ImageIO/ImageIO.h>
+#import <AVFoundation/AVFoundation.h>
 #import "ZXBinaryBitmap.h"
 #import "ZXCapture.h"
 #import "ZXCaptureDelegate.h"
