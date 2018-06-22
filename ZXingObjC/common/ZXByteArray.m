@@ -28,6 +28,9 @@
 }
 
 - (id)initWithBytes:(int8_t)byte1, ... {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wvarargs"
+
   va_list args;
   va_start(args, byte1);
   unsigned int length = 0;
@@ -45,6 +48,8 @@
     }
     va_end(args);
   }
+
+#pragma clang diagnostic pop
 
   return self;
 }
